@@ -7,7 +7,7 @@ jobs:
   zap_scan:
     runs-on: ubuntu-latest
     steps:
-      - name: ZAP Baseline Scan
-        uses: zaproxy/action-baseline@v0.7.0
+      - name: ZAP Scan
+        uses: zaproxy/action-baseline@v0.11.0
         with:
-          target: 'https://builder.uat.solartis.net/V4/Login.xhtml?encKey=VLN65sNz5n5opGBO%2ByVipQ%3D%3D' 
+          target: 'https://builder.uat.solartis.net/V4/Login.xhtml?encKey=VLN65sNz5n5opGBO%2ByVipQ%3D%3D'
