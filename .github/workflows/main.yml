@@ -10,4 +10,4 @@ jobs:
       - name: ZAP Scan
         uses: zaproxy/action-baseline@v0.11.0
         with:
-          target: 'https://builder.uat.solartis.net/V4/Login.xhtml?encKey=VLN65sNz5n5opGBO%2ByVipQ%3D%3D'
+          target: 'www.google.com'
